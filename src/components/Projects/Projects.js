@@ -6,43 +6,11 @@ import Food from "../../img/food.PNG";
 import Yoga from "../../img/yoga.PNG";
 
 const Projects = () => {
-  // const projectInformation = [
-  //     {
-  //         name:'Testy Food [Web Application] – [1-3 April 2021]',
-  //         description:'it’s an online food-delivered system.To order any item customer must log in.In this system, the admin can add more food item.',
-  //         technologies:' html, CSS, React Js, Bootstrap, Node Js, Firebase, Heroku, MongoDB.',
-  //         img:'',
-  //         githubClient:'https://github.com/moyuriakther/testy-food',
-  //         githubServer:'https://github.com/moyuriakther/testy-food-server',
-  //         live:'https://complete-website-client-b7a1a.web.app/'
-  //     },
-  //     {
-  //         name:'Burj Al Arab [Web Application] – [18-20 March 2021]',
-  //         description:'It’s an online hotel booking system.people can choose their needed room.',
-  //         technologies:'html, CSS, React Js, Material Ui, Firebase.',
-  //         img:'',
-  //         githubClient:'https://github.com/moyuriakther/burj-al-arab-final.git',
-  //         githubServer:'https://github.com/moyuriakther/burj-al-arab-server.git',
-  //         live:'https://burj-al-arab-cc6b6.web.app/'
-  //     },
-  //     {
-  //         name:'Yoga Fit [Web Application] – [16-18 April 2021]',
-  //         description:'It’s an online booking system for a yoga class.customers can choose what type of yoga he/she like.here we provide basic to advance level yoga.',
-  //         technologies:'html, CSS, React Js, Bootstrap, Firebase, Heroku, MongoDB.',
-  //         img:'',
-  //         github:'https://github.com/moyuriakther/Express-Yoga',
-  //         live: '<a href="full-stack-client-moyuriakther.web.app/home"></a>'
-  //     }
-  // ]
   return (
-    <div style={{backgroundColor:'#0A192F', color:'black' }}>
+    <div style={{backgroundColor:'#0A192F', color:'black', height:'700px'}}>
       <div className="container">
         <h2 style={{color:'white'}}>Projects</h2>
         <div className="row">
-          {/* {
-                projectInformation.map(info => <Project info={info} key={info.name}></Project>)
-            } */}
-
           <CardDeck>
             <Card >
               <Card.Img variant="top" src={Food} />
