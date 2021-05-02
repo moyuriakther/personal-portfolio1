@@ -24,7 +24,7 @@ const Contact = () => {
     e.target.reset();
   }
   return (
-    <div style={{backgroundColor:'#0A192F', color:'white' }}>
+    <div style={{backgroundColor:'#0A192F', color:'white', height:'700px' }}>
       <div className="container">
         <Form onSubmit={sendEmail}>
           <Form.Group controlId="formGroupName">
